@@ -19,6 +19,10 @@ pipeline {
             }
             stage('Deploy Production') {
                   steps {
+                        echo "Doing User Acceptance test"
+                  }
+	   stage('Deploy Production') {
+                  steps {
                         echo "Deploying in Production Area"
                   }
             }
