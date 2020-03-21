@@ -21,7 +21,7 @@ pipeline {
                   steps {
                         echo "Doing User Acceptance test"
                   }
-	   stage('Deploy Production') {
+	    stage('Deploy Production') {
                   steps {
                         echo "Deploying in Production Area"
                   }
